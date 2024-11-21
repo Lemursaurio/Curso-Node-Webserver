@@ -35,6 +35,13 @@ app.get('/generic', (req, res) => {
     })
 })
 
+app.get('/salidas', (req, res) => {
+    res.render('salidas', {
+        nombre: 'Armando David',
+        titulo: 'Curso de Node'
+    })
+})
+
 // app.get('/hola-mundo', function (req, res) {
 //     res.send('Hola Mundo en su respectiva ruta')
 // })
